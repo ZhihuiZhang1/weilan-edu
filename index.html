@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蔚澜国际 - 专业教育培训机构</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="weilan.png" alt="蔚澜国际" class="logo-img">
+                    <div class="slogan">
+                        <p class="slogan-main">双轨并行，成就无限可能</p>
+                        <p class="slogan-sub">立足本土，链接全球 | 一站式教育解决方案开创者</p>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#courses">课程介绍</a></li>
+                    <li><a href="#teachers">师资力量</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                    <li><a href="#enrollment" class="enroll-btn">立即报名</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80" alt="国际教育">
+                        <div class="slide-content">
+                            <h2>国际化精品教育</h2>
+                            <p>专业师资团队，打造一流学习体验</p>
+                            <a href="#courses" class="cta-button">了解更多</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80" alt="课程体系">
+                        <div class="slide-content">
+                            <h2>全面课程体系</h2>
+                            <p>从基础课程到国际课程，全方位培养</p>
+                            <a href="#courses" class="cta-button">课程详情</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80" alt="优秀成果">
+                        <div class="slide-content">
+                            <h2>卓越成果展示</h2>
+                            <p>优异的升学成绩，丰富的名校案例</p>
+                            <a href="#achievements" class="cta-button">查看成果</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-button prev" aria-label="上一张"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-button next" aria-label="下一张"><i class="fas fa-chevron-right"></i></button>
+                <div class="slider-dots">
+                    <button class="dot active" aria-label="第1张幻灯片"></button>
+                    <button class="dot" aria-label="第2张幻灯片"></button>
+                    <button class="dot" aria-label="第3张幻灯片"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>关于我们</h2>
+                <p>蔚澜国际成立于2010年，是一家专注于提供优质教育服务的机构。我们秉持"以学生为中心"的教育理念，采用个性化教学方案，致力于帮助学生建立自信，培养学习兴趣，提升综合能力。十多年来，我们已经帮助超过10000名学生实现了他们的学习目标。</p>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <div class="container">
+                <h2>成果展示墙</h2>
+                <div class="achievements-tabs">
+                    <button class="tab-btn active" data-tab="scores">优异成绩</button>
+                    <button class="tab-btn" data-tab="testimonials">好评反馈</button>
+                </div>
+
+                <div class="tab-content scores active">
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-details">
+                                <h3>SAT成绩突破</h3>
+                                <p class="student-name">张同学</p>
+                                <p class="score">SAT 1580分</p>
+                                <p class="description">通过三个月系统培训，SAT成绩从1380提升至1580</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-details">
+                                <h3>IGCSE优异成绩</h3>
+                                <p class="student-name">李同学</p>
+                                <p class="score">8A*1A</p>
+                                <p class="description">全科系统培训，实现IGCSE考试优异成绩</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="achievement-details">
+                                <h3>TOEFL满分</h3>
+                                <p class="student-name">王同学</p>
+                                <p class="score">托福120分</p>
+                                <p class="description">两个月强化训练，实现托福满分梦想</p>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="achievement-details">
+                                <h3>名校录取</h3>
+                                <p class="student-name">陈同学</p>
+                                <p class="score">宾夕法尼亚大学</p>
+                                <p class="description">通过全程升学规划，成功获得宾大早申请录取</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content testimonials">
+                    <div class="testimonials-slider">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"感谢蔚澜国际的老师们！通过系统的学习规划和针对性的培训，我的孩子不仅提高了学习成绩，更重要的是培养了良好的学习习惯和自信心。"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="家长照片">
+                                <div class="author-info">
+                                    <h4>张女士</h4>
+                                    <p>高二学生家长</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"蔚澜国际的留学申请服务非常专业，从选校到文书都给予了很多有价值的建议。最终收获了理想大学的录取，非常感谢！"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="学生照片">
+                                <div class="author-info">
+                                    <h4>李同学</h4>
+                                    <p>2023届毕业生</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"老师们都很耐心负责，课程安排合理，教学质量很高。特别是一对一辅导，真正做到了因材施教。"</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="家长照片">
+                                <div class="author-info">
+                                    <h4>王女士</h4>
+                                    <p>初三学生家长</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <div class="slider-dots"></div>
+                        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="section">
+            <div class="container">
+                <h2>课程介绍</h2>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <h3>初高中全科培训</h3>
+                        <p class="details">系统化提升学科能力，打造优质学习体验</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>语数英全科辅导</li>
+                            <li><i class="fas fa-check"></i>物理化学生物专项</li>
+                            <li><i class="fas fa-check"></i>一对一个性化教学</li>
+                            <li><i class="fas fa-check"></i>学科专家定制方案</li>
+                        </ul>
+                        <p class="price">课程费用：详询课程顾问</p>
+                        <a href="#enrollment" class="course-btn">立即咨询</a>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <h3>国际全科培训</h3>
+                        <p class="details">国际课程体系，培养全球化视野</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>IB/AP/A-Level课程</li>
+                            <li><i class="fas fa-check"></i>外教小班授课</li>
+                            <li><i class="fas fa-check"></i>国际课程达标保障</li>
+                            <li><i class="fas fa-check"></i>跨文化能力培养</li>
+                        </ul>
+                        <p class="price">课程费用：详询课程顾问</p>
+                        <a href="#enrollment" class="course-btn">立即咨询</a>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <h3>留学申请服务</h3>
+                        <p class="details">专业留学规划，助力梦想起航</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>名校申请指导</li>
+                            <li><i class="fas fa-check"></i>文书写作辅导</li>
+                            <li><i class="fas fa-check"></i>面试技巧培训</li>
+                            <li><i class="fas fa-check"></i>全程申请服务</li>
+                        </ul>
+                        <p class="price">服务费用：详询留学顾问</p>
+                        <a href="#enrollment" class="course-btn">立即咨询</a>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>国际学校备考</h3>
+                        <p class="details">专业备考指导，提升录取机会</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>SSAT/ISEE考试辅导</li>
+                            <li><i class="fas fa-check"></i>面试能力培训</li>
+                            <li><i class="fas fa-check"></i>才艺特长培养</li>
+                            <li><i class="fas fa-check"></i>入学考试辅导</li>
+                        </ul>
+                        <p class="price">课程费用：详询课程顾问</p>
+                        <a href="#enrollment" class="course-btn">立即咨询</a>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3>小语种培训</h3>
+                        <p class="details">多语言学习，开启国际视野</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i>日语/韩语/法语/德语</li>
+                            <li><i class="fas fa-check"></i>外教一对一教学</li>
+                            <li><i class="fas fa-check"></i>考级课程辅导</li>
+                            <li><i class="fas fa-check"></i>文化体验活动</li>
+                        </ul>
+                        <p class="price">课程费用：详询课程顾问</p>
+                        <a href="#enrollment" class="course-btn">立即咨询</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teachers" class="section">
+            <div class="container">
+                <h2>师资力量</h2>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <div class="teacher-image">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="张老师">
+                        </div>
+                        <h3>张老师</h3>
+                        <p class="title">数学教育专家</p>
+                        <p>从教15年，北师大数学教育硕士，多名学生在数学竞赛中获奖</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="teacher-image">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="李老师">
+                        </div>
+                        <h3>李老师</h3>
+                        <p class="title">英语教育专家</p>
+                        <p>英国剑桥大学教育学硕士，十年英语教学经验，雅思8.5分</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="teacher-image">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="王老师">
+                        </div>
+                        <h3>王老师</h3>
+                        <p class="title">小学教育专家</p>
+                        <p>特级教师，20年小学教育经验，深受学生和家长喜爱</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>联系我们</h2>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>地址</h3>
+                        <p>北京市海淀区中关村大街1号</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>电话</h3>
+                        <p>010-12345678</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>邮箱</h3>
+                        <p>contact@weilan.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="enrollment" class="section">
+            <div class="container">
+                <h2>在线报名</h2>
+                <form class="enrollment-form">
+                    <div class="form-group">
+                        <label for="name">学生姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">年龄</label>
+                        <input type="number" id="age" name="age" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="grade">年级</label>
+                        <select id="grade" name="grade" required>
+                            <option value="">请选择年级</option>
+                            <option value="小学一年级">小学一年级</option>
+                            <option value="小学二年级">小学二年级</option>
+                            <option value="小学三年级">小学三年级</option>
+                            <option value="小学四年级">小学四年级</option>
+                            <option value="小学五年级">小学五年级</option>
+                            <option value="小学六年级">小学六年级</option>
+                            <option value="初中一年级">初中一年级</option>
+                            <option value="初中二年级">初中二年级</option>
+                            <option value="初中三年级">初中三年级</option>
+                            <option value="高中一年级">高中一年级</option>
+                            <option value="高中二年级">高中二年级</option>
+                            <option value="高中三年级">高中三年级</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">意向课程</label>
+                        <select id="course" name="course" required>
+                            <option value="">请选择课程</option>
+                            <option value="初高中全科培训">初高中全科培训</option>
+                            <option value="国际全科培训">国际全科培训</option>
+                            <option value="留学申请服务">留学申请服务</option>
+                            <option value="国际学校备考">国际学校备考</option>
+                            <option value="小语种培训">小语种培训</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">联系电话</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">备注信息</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">提交报名</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于我们</h3>
+                    <p>蔚澜国际是一家专注于提供优质教育服务的机构，致力于帮助学生实现学习目标，提升综合能力。</p>
+                    <div class="social-links">
+                        <a href="#" title="微信" target="_blank"><i class="fab fa-weixin"></i></a>
+                        <a href="#" title="小红书" target="_blank"><i class="fas fa-book"></i></a>
+                        <a href="#" title="抖音" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" title="微博" target="_blank"><i class="fab fa-weibo"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            北京市海淀区中关村大街1号
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            010-12345678
+                        </li>
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            400-123-4567
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            contact@weilan.com
+                        </li>
+                        <li>
+                            <i class="fab fa-weixin"></i>
+                            微信公众号：蔚澜教育
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="quick-links">
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i>关于我们</a></li>
+                        <li><a href="#courses"><i class="fas fa-chevron-right"></i>课程介绍</a></li>
+                        <li><a href="#teachers"><i class="fas fa-chevron-right"></i>师资力量</a></li>
+                        <li><a href="#enrollment"><i class="fas fa-chevron-right"></i>在线报名</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i>联系我们</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>营业时间</h3>
+                    <ul class="business-hours">
+                        <li>
+                            <span>周一至周五</span>
+                            <span>09:00 - 21:00</span>
+                        </li>
+                        <li>
+                            <span>周六</span>
+                            <span>09:00 - 18:00</span>
+                        </li>
+                        <li>
+                            <span>周日</span>
+                            <span>10:00 - 18:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 蔚澜国际. 版权所有. ICP备案号：京ICP备XXXXXXXX号</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
